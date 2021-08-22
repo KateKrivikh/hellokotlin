@@ -1,4 +1,7 @@
-const val COUNT = 5;
+package simpleexamples
+
+const val COUNT = 5
+
 fun main() {
     val map: Map<Int, String> = mutableMapOf(1 to "Daniil", 2 to "Kate")
     map.forEach { e -> println("${e.key} -> ${e.value}") }
